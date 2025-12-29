@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/widget_background"> <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRIORITY TASK"
+        android:textColor="#FFFA5788" 
+        android:textSize="10sp"
+        android:letterSpacing="0.1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_task_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Loading tasks..."
+        android:textColor="#FFFFD54F"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="3"
+        android:ellipsize="end" />
+
+</LinearLayout>
